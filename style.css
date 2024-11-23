@@ -20,19 +20,22 @@ h1, h2, h3, h4, h5, h6 , p{
 
 .container{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 75px;
     background-color: var(--card-g);
     width: 365px;
     border-radius: 8px 8px 8px 8px;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
+    border-color: black;
+    border-style:solid;
+    border-width: 10px;
+    border-top: black;
+    border-left:20px;
 }
 
 .card-description{
-    height: 240px;
+    height: 260px;
     background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
@@ -55,6 +58,7 @@ justify-content: center;
     flex-direction: column;
     margin: 20px;
     text-align: left;
+    background-color: var(--bg-body);
     
 }
 .card-description h6{
@@ -73,15 +77,26 @@ justify-content: center;
     margin: 20px;
     margin-top: 0px;
     text-align: left;
+    
 }
 
 .avatar img{
-    max-width: 20px;
-    max-height:20px;
-    margin-top: 0;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    
 }
-.Tamanho{
-    margin-top: 0;
+.Tamanho img{
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container img{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
